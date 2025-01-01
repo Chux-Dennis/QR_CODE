@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directory
+venv/
+
+# Environment variables file
+.env
+
+# Flask instance folder
+instance/
+
+# Logs and debug files
+*.log
+*.pot
+*.mo
+
+# MacOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+
+# Testing cache
+.tox/
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+.cache
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Build / distribution directories
+build/
+dist/
+*.egg-info/
+
+# Generated files
+*.png
+*.jpeg
+*.jpg
+
+# An optional rule to exclude QR code images (if saved locally)
+qr_code_*.png
